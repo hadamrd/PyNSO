@@ -1,6 +1,6 @@
 #! /usr/bin/python3
 import os
-from src.bytel_taf import PyNSO
+from src.pynso import PyNSO
 import yaml
 import argparse
 
