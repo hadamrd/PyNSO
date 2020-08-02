@@ -1,0 +1,12 @@
+packages:
+  - l3vpn
+devices:
+  IOSXR01:
+    ned: cisco-iosxr-cli-7.21
+test-cases:
+  CSG_ZTP_DAY1:
+    test-args:
+      device: IOSXR01
+      payload: "testbed/payload.xml"
+      expect: "testbed/expect.cli"
+    post-clean-cmd: "no l3vpn"
