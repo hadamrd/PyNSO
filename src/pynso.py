@@ -9,7 +9,7 @@ import logging
 import os
 import subprocess
 import ncs
-from .bytel_exceptions import *
+from .pynso_exceptions import *
 import re
 import time
 
