@@ -23,7 +23,7 @@ test-cases:
   ...
 ```
 
-* To run the test: `python taf.py name_of_playbook.yaml [-d] [-mn] [-pr] [-mp]` (or `./nsotaf.py` directly)
+* To run the test: `python nsotaf.py name_of_playbook.yaml [-d] [-mn] [-pr] [-mp]` (or `./nsotaf.py` directly)
   * add the option `-d` to activate debut level logging
   * add option `-pr` to reload packages before test
   * add option `-mp` to make the list of packages before
