@@ -4,7 +4,7 @@ devices:
   IOSXR01:
     ned: cisco-iosxr-cli-7.21
 test-cases:
-  CSG_ZTP_DAY1:
+  PUSH_EXPECT_L3VPN:
     test-args:
       device: IOSXR01
       payload: "testbed/payload.xml"
